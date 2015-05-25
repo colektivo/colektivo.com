@@ -1,0 +1,13 @@
+@css stylesheets/all.css
+
+@title My Living Style Guide
+
+@header
+  <header>
+    <h1>Living Style Guide</h1>
+  </header>
+
+@footer
+  <footer></footer>
+
+@import stylesheets/**/*.lsg
