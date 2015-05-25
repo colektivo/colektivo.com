@@ -38,3 +38,56 @@
 //   "foundation/components/type",
 //   "foundation/components/offcanvas",
 //   "foundation/components/visibility";
+
+html {
+  font-size: 7px;
+}
+
+@media #{$medium-up} {
+  html {
+    font-size: 12px;
+  }
+}
+
+@media #{$large-up} {
+  html {
+    font-size: 19px;
+  }
+}
+
+@media #{$xlarge-up} {
+  html {
+    font-size: 20px;
+  }
+}
+
+@media #{$xxlarge-up} {
+  html {
+    font-size: 26px;
+  }
+}
+
+body {
+  background-image: url(../images/herozoom.jpg);
+  background-size: cover;
+}
+
+.home--title {
+  font-family: 'cubano-sharp';
+  font-style: italic;
+  font-size: 10rem;
+  display: block;
+  position: fixed;
+  right: 4rem;
+  bottom: 1rem;
+  color: #c41c87;
+  opacity: 0.9;
+  //max-width: 100vw;
+  span {
+    color: #0081a1;
+  }
+}
+
+.home--angle {
+  height: 100vh;
+}

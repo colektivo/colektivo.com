@@ -9,5 +9,7 @@
         %title= current_page.data.title || "The Middleman"
         = stylesheet_link_tag "app"
         = javascript_include_tag  "app"
+      <script src="//use.typekit.net/wdv8xef.js"></script>
+      <script>try{Typekit.load();}catch(e){}</script>
   %body{:class => page_classes}
     = yield
